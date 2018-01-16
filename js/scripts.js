@@ -1,3 +1,4 @@
+console.log("Hi!");
 $(document).ready(function(){
   $('#favoriteThings').submit(function(event){
   event.preventDefault();
@@ -11,7 +12,7 @@ $(document).ready(function(){
   favoriteThings.push(favoriteThings1,favoriteThings2, favoriteThings3);
 
 
-    $(#output).text(favoriteThings.toString());
+    $('#output').text(favoriteThings.toString()).show();
   });
 
 });
